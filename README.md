@@ -95,7 +95,7 @@ Types live in `cula.models` (e.g. `Sink`, `MachineDpRequest`, `MachineDataInRang
 
 - **`regenerate_models.sh`** (repository root) — Regenerates `cula/models.py` from `openapi/cula.openapi.json` (requires `pip install -e ".[dev]"` and a working `.venv`). Reapplies a small post-process fix for a datamodel-codegen quirk on `EventInfo.event`.
 
-## OpenAPI
+## OpenAPI 
 
 The spec is vendored at **`openapi/cula.openapi.json`**. It was extended with a `manual` value on `sourceConfig.valueSourceType` so responses match production data; if the upstream spec changes, merge carefully and re-run `./regenerate_models.sh`.
 
