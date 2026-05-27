@@ -11,7 +11,7 @@ The live API is hosted at `https://api.hack-hpi.cula.earth` (paths still use the
 
 ## Install
    
-```bash
+```bash 
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e .
