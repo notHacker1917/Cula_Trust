@@ -19,7 +19,7 @@ pip install -e .
 
 For regenerating Pydantic models from the OpenAPI file:
 
-```bash
+```bash 
 pip install -e ".[dev]"
 ```
 
